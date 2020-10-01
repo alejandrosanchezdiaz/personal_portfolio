@@ -198,6 +198,7 @@ img{
     display: flex;
     flex-direction: column;
   }
+
   .home__social-icon{
     width: max-content;
     margin-bottom: var(--mb-2);
@@ -211,7 +212,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 200px;
   }
 /*BUTTONS*/
 .button{
@@ -238,7 +239,7 @@ img{
     justify-self: center;
   }
   .about__img img{
-    width: 200px;
+    width: 250px;
     border-radius: .5rem;
   }
 /*===== SKILLS =====*/
@@ -314,7 +315,37 @@ text-align: center;
 }
 .work__img img:hover{
     transform: scale(1.1);
+    opacity: 0.5;
 }
+
+#caption {
+	position: center;
+}
+#caption .text {
+    position: absolute;		
+    top: 40%;
+    left: 25%;
+    text-align: center;
+	/* transform: translate(-50%, -50%); */
+	z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;	
+    cursor: pointer;		
+}
+#caption .text h1 {		
+	margin: 0;		
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#caption:hover .text {
+    opacity: 1;
+    transform: scale(1.2);
+    text-shadow: 2px 2px 4px #000000;
+}
+/* #caption:hover img {
+	-webkit-filter: sepia(90%);
+} */
+
 /*===== CONTACT =====*/
 .contact__input{
     width: 100%;
@@ -370,7 +401,7 @@ text-align: center;
       width: 80px;
       top: 3rem;
     }
-  
+    
     .nav{
       height: calc(var(--header-height) + 1rem);
     }
@@ -417,7 +448,7 @@ text-align: center;
       text-align: initial;
     }
     .about__img img{
-      width: 300px;
+      width: 400px;
     }
     .work__container{
       grid-template-columns: repeat(3, 1fr);
@@ -440,4 +471,6 @@ text-align: center;
     .home__img{
       right: 5%;
     }
+
+    .
   }
