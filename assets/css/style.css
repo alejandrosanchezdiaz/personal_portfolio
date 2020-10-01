@@ -239,7 +239,7 @@ img{
     justify-self: center;
   }
   .about__img img{
-    width: 200px;
+    width: 250px;
     border-radius: .5rem;
   }
 /*===== SKILLS =====*/
@@ -346,14 +346,6 @@ text-align: center;
 	-webkit-filter: sepia(90%);
 } */
 
-
-
-
-
-
-
-
-
 /*===== CONTACT =====*/
 .contact__input{
     width: 100%;
@@ -456,7 +448,7 @@ text-align: center;
       text-align: initial;
     }
     .about__img img{
-      width: 300px;
+      width: 400px;
     }
     .work__container{
       grid-template-columns: repeat(3, 1fr);
@@ -479,4 +471,6 @@ text-align: center;
     .home__img{
       right: 5%;
     }
+
+    .
   }
