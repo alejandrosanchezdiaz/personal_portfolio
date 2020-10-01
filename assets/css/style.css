@@ -252,6 +252,7 @@ text-align: center;
 }
 .skills__text{
     margin-bottom: var(--mb-4);
+    text-align: justify;
 }
 .skills__data{
     display: flex;
@@ -283,13 +284,13 @@ text-align: center;
     z-index: var(--z-back);
 }
 .skills__java{
-    width: 75%;
+    width: 70%;
 }
 .skills__html{
-    width: 60%;
+    width: 65%;
 }
 .skills__css3{
-    width: 60%;
+    width: 65%;
 }
 .skills__js{
     width: 50%;
@@ -445,7 +446,7 @@ text-align: center;
     .about__container, .skills__container{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
-      text-align: initial;
+      text-align: justify;
     }
     .about__img img{
       width: 400px;
@@ -472,5 +473,4 @@ text-align: center;
       right: 5%;
     }
 
-    .
   }
