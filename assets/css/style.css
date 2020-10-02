@@ -321,14 +321,13 @@ text-align: center;
 }
 
 #caption {
-	position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 #caption .text {
     position: absolute;		
-    top: 30%;
-    left: 36%;
-    text-align: center;
-	/* transform: translate(-50%, -50%); */
 	  z-index: 10;
     opacity: 0;
     transition: all 0.8s ease;	
@@ -336,7 +335,6 @@ text-align: center;
 }
 #caption .text h1 {		
     position: relative;
-    text-align: center;
 	  margin: 0;		
     color: white;
     text-shadow: 2px 2px 4px #000000;
